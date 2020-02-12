@@ -1,0 +1,522 @@
+aislingboner@ip-172-31-34-14:~/Project$ ./projectQ2.2
+
+##########################################
+
+        Research Project for Q2.2
+
+##########################################
+
+
+------------------------------------------
+Current  Date:
+------------------------------------------
+
+Tue Apr 30 18:10:06 UTC 2019
+
+
+------------------------------------------
+Host IP Address:
+------------------------------------------
+
+ip-172-31-34-14
+
+
+------------------------------------------
+Computer Architecture Specs:
+------------------------------------------
+
+x86_64
+
+
+------------------------------------------
+System User's Information:
+------------------------------------------
+
+Linux ip-172-31-34-14 4.4.0-1075-aws #85-Ubuntu SMP Thu Jan 17 17:15:12 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+
+------------------------------------------
+Current Activity Length Period:
+------------------------------------------
+
+ 18:10:06 up 43 days,  7:21, 10 users,  load average: 0.00, 0.00, 0.00
+
+
+------------------------------------------
+Current User's Username:
+------------------------------------------
+
+aislingboner
+
+
+------------------------------------------
+All Users that are Logged in:
+------------------------------------------
+
+aislingboner pts/0        2019-04-30 16:43 (37.228.235.97)
+janhazincak pts/1        2019-04-30 18:00 (37.228.227.94)
+alessandraguerrarios pts/2        2019-04-30 14:16 (87.198.171.156)
+vanessaromano pts/3        2019-04-30 17:42 (146.247.40.253)
+margaretlynch pts/5        2019-04-30 09:13 (89.127.21.72)
+edwardryan pts/7        2019-04-30 16:59 (109.76.124.238)
+lisaroessel pts/8        2019-04-30 16:18 (87.198.171.156)
+petermcguinn pts/9        2019-04-30 17:49 (94.230.99.36)
+marysteed pts/10       2019-04-30 12:41 (51.171.48.98)
+petermcguinn pts/11       2019-04-30 17:12 (94.230.99.36)
+
+
+------------------------------------------
+User Details:
+------------------------------------------
+
+Login                Name      Tty      Idle  Login Time   Office     Office Phone
+aislingboner                   pts/0          Apr 30 16:43 (37.228.235.97)
+alessandraguerrarios           pts/2    1:31  Apr 30 14:16 (87.198.171.156)
+edwardryan                     pts/7      44  Apr 30 16:59 (109.76.124.238)
+janhazincak                    pts/1          Apr 30 18:00 (37.228.227.94)
+lisaroessel                    pts/8      33  Apr 30 16:18 (87.198.171.156)
+margaretlynch                  pts/5    8:42  Apr 30 09:13 (89.127.21.72)
+marysteed                      pts/10   1:23  Apr 30 12:41 (51.171.48.98)
+petermcguinn                   pts/9          Apr 30 17:49 (94.230.99.36)
+petermcguinn                   pts/11     21  Apr 30 17:12 (94.230.99.36)
+vanessaromano                  pts/3          Apr 30 17:42 (146.247.40.253)
+
+
+------------------------------------------
+Login, Activity & Computer Usage Summary:
+------------------------------------------
+
+ 18:10:06 up 43 days,  7:21, 10 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+aislingb pts/0    37.228.235.97    16:43    4.00s  0.14s  0.00s w
+janhazin pts/1    37.228.227.94    18:00   35.00s  0.06s  0.02s vim Irishman.sh
+alessand pts/2    87.198.171.156   14:16    1:31m  0.09s  0.00s less alessandra
+vanessar pts/3    146.247.40.253   17:42    6.00s  0.08s  0.08s -bash
+margaret pts/5    89.127.21.72     09:13    8:42m  0.03s  0.03s -bash
+edwardry pts/7    109.76.124.238   16:59   44:14   0.11s  0.11s -bash
+lisaroes pts/8    87.198.171.156   16:18   33:06   0.07s  0.07s -bash
+petermcg pts/9    94.230.99.36     17:49   30.00s  0.08s  0.08s -bash
+marystee pts/10   51.171.48.98     12:41    1:23m  0.24s  0.24s -bash
+petermcg pts/11   94.230.99.36     17:12   21:50   0.28s  0.03s vim
+
+
+------------------------------------------
+Top Processes Currently Active:
+------------------------------------------
+top - 18:10:06 up 43 days,  7:21, 10 users,  load average: 0.00, 0.00, 0.00
+Tasks: 163 total,   1 running, 161 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.2 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1014436 total,   125148 free,   137064 used,   752224 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   640236 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+    1 root      20   0  185436   6048   4032 S  0.0  0.6   1:20.64 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.03 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:40.23 ksoftirqd/0
+    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+    7 root      20   0       0      0      0 S  0.0  0.0   1:03.80 rcu_sched
+    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh
+    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+   10 root      rt   0       0      0      0 S  0.0  0.0   0:18.43 watchdog/0
+   11 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
+   12 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns
+   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 perf
+   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenwatch
+   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenbus
+   17 root      20   0       0      0      0 S  0.0  0.0   0:01.03 khungtaskd
+   18 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback
+   19 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd
+   20 root      39  19       0      0      0 S  0.0  0.0   0:08.66 khugepaged
+   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto
+   22 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd
+   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd
+   25 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ata_sff
+   26 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md
+   27 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq
+   30 root      20   0       0      0      0 S  0.0  0.0   0:01.06 kswapd0
+   31 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 vmstat
+   32 root      20   0       0      0      0 S  0.0  0.0   0:00.00 fsnotify_ma+
+   33 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kt+
+   49 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld
+   50 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   51 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   52 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   53 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+
+
+------------------------------------------
+History of Commands Inputted by the User:
+------------------------------------------
+
+    1  ls
+    2  /Music ls
+    3  ls Music/
+    4  cd Music
+    5  mkdir Guns N Roses/
+    6  ls
+    7  ../
+    8  rm Music/
+    9  rm /Music
+   10  ls
+   11  tree
+   12  rmdir Music/
+   13  cd Music
+   14  ls
+   15  rm
+   16  rm Guns
+   17  rmdir Guns
+   18  ls
+   19  rmdir John
+   20  lx
+   21  ls
+   22  rmdir N
+   23  Rmdir Roses
+   24  ls
+   25  rmdir Roses
+   26  rmdir Mayer
+   27  ls
+   28  cd ../
+   29  ls
+   30  $clear
+   31  ls
+   32  cd Music
+   33  ls
+   34  mkdir Queen
+   35  mkdir Metallica
+   36  mkdir Slipknotcd../
+   37  ls
+   38  rmdir Slipknotcd..
+   39  ls
+   40  mkdir AltJ
+   41  ls
+   42  /AltJ
+   43  cd AltJ
+   44  mkdir An Awesome Wave
+   45  ls
+   46  rmdir An
+   47  ls
+   48  rmdir Awesome
+   49  rmdir Wave
+   50  ls
+   51  mkdir 'An Awesome Wave'
+   52  ls
+   53  cd An Awesome wave
+   54  ls
+   55  tree
+   56  cd AltJ
+   57  ls
+   58  cd music
+   59  cd Music
+   60  cd AltJ
+   61  MKDIR Relaxer
+   62  mkdir Relaxer
+   63  ls
+   64  ../
+   65  cd ../
+   66  cd../
+   67  ls
+   68  tree
+   69  cd Metallica
+   70  mkdir Master Of Puppets
+   71  mkdir Ride the Lightning
+   72  cd ../
+   73  tree
+   74  cd Music
+   75  cd Queen
+   76  mkdir Jazz
+   77  mkdir Innuendo
+   78  cd ../
+   79  tree
+   80  cd Music
+   81  cd Metallica
+   82  deltree
+   83  rmdir
+   84  rmdir Metallica
+   85  cd ../
+   86  rmdir Metallica
+   87  cd Metallica
+   88  rmdir Lightning
+   89  rmdir the
+   90  rmdir Master
+   91  rmdir of
+   92  rmdir Of
+   93  rmdir Ride
+   94  cd ../
+   95  tree
+   96  cd Music/Metallica
+   97  rmdir Puppets
+   98  cd ../
+   99  rmdir Metallica
+  100  cd ../
+  101  tree
+  102  cd Music
+  103  mkdir 'John Mayer'
+  104  ls
+  105  cd John Mayer
+  106  cd 'John Mayer'
+  107  mkdir Continuum
+  108  mkdir 'Battle Studies'
+  109  cd ../
+  110  tree
+  111  echo hello world
+  112  passwd
+  113  clear
+  114  echo hello world
+  115  passwd
+  116  date
+  117  hostname
+  118  arch
+  119  uname -a
+  120  dmesg | more
+  121  uptime
+  122  whoami
+  123  who
+  124  last
+  125  finger
+  126  w
+  127  top
+  128  echo $SHELL
+  129  echo {con,pre}{sent,fer}{s,ed}
+  130  man ls
+  131  man who
+  132  clear
+  133  cal 2000
+  134  cal 9 1752
+  135  yes please
+  136  time sleep 5
+  137  history
+  138  ./morning
+  139  #!/bin/bash
+  140  clear
+  141  chmod 775
+  142  echo "Good morning, worl
+  143  clear
+  144  q
+  145  cat / etc/shells
+  146  ./first.sh
+  147  bash First.sh
+  148  chmod +x project.sh
+  149  clear#
+  150  clear
+  151  cd
+  152  ls
+  153  ../
+  154  mkdir ProjectQ2.2
+  155  ls
+  156  cd ProjectQ2.2/
+  157  vim project.sh
+  158  echo SHELL
+  159  echo $SHELL
+  160  ./
+  161  man ls
+  162  info bash
+  163  cat>first
+  164  ./first
+  165  chmod +x first
+  166  ./first
+  167  first
+  168  cat >first
+  169  clear
+  170  cat > first
+  171  ./first
+  172  clear
+  173  cat >ProjectQ2.2
+  174  rmdir ProjectQ2.2
+  175  ls
+  176  cd ProjectQ2.2
+  177  ls
+  178  rmdir
+  179  rmdir --help
+  180  cd ./
+  181  cd ../
+  182  rmdir -p
+  183  ls
+  184  ProjectQ2.2 remove script
+  185  clear
+  186  rm ProjectQ2.2/
+  187  ../
+  188  ls
+  189  cd ProjectQ2.2/
+  190  rm
+  191  ../
+  192  rm
+  193  cd ./
+  194  ../
+  195  history
+  196  ls
+  197  cd ../
+  198  ./
+  199  cd ../
+  200  clear
+  201  history
+  202  clear
+  203  ../
+  204  cd ../
+  205  ls
+  206  cd home
+  207  ls
+  208  cd aislingboner/
+  209  ls
+  210  cd first
+  211  rmdir first
+  212  rm first
+  213  ls
+  214  rmdir ProjectQ2.2/
+  215  cd ProjectQ2.2/
+  216  ls
+  217  rm
+  218  rm --help
+  219  rm -r
+  220  cd ./
+  221  cd ../
+  222  ls
+  223  rm -r ProjectQ2.2/
+  224  ls
+  225  cat > projectQ2.2
+  226  ./projectQ2.2
+  227  chmod +x projectQ2.2
+  228  ./projectQ2.2
+  229  ls
+  230  cd projectQ2.2
+  231  ./projectQ2.2
+  232  sudo apt-get install vim
+  233  vim
+  234  clear
+  235  vim test
+  236  : echo $MYVIMRC
+  237  VIM
+  238  VIM test
+  239  clear
+  240  vim
+  241  vim ProjectQ2.2
+  242  ls
+  243  ./ProjectQ2.2
+  244  ./projectQ2.2
+  245  cd ../
+  246  ls
+  247  cd aislingboner/
+  248  ls
+  249  rmdir ProjectQ2.2
+  250  rm ProjectQ2.2
+  251  ls
+  252  vim projectQ2.2
+  253  ./projectQ2.2
+  254  hostname
+  255  vim projectQ2.2
+  256  ./projectQ2.2
+  257  chmod 755 projectQ2.2
+  258  vim projectQ2.2
+  259  ./projectQ2.2
+  260  vim projectQ2.2
+  261  ./projectQ2.2
+  262  which prove
+  263  which projectQ2.2
+  264  touch~/bin/projectQ2.2
+  265  ls ~bin/
+  266  clear
+  267  touch ~/bin/datecp
+  268  ls ~/bin/
+  269  vim projectQ2.2
+  270  ./projectQ2.2
+  271  vim projectQ2.2
+  272  ./projectQ2.2
+  273  vim projectQ2.2
+  274  ./projectQ2.2
+  275  vim projectQ2.2
+  276  ./projectQ2.2
+  277  vim projectQ2.2
+  278  ./projectQ2.2
+  279  vim projectQ2.2
+  280  ./projectQ2.2
+  281  vim projectQ2.2
+  282  ./projectQ2.2
+  283  vim projectQ.sh
+  284  ls
+  285  cd ../
+  286  ls
+  287  cd aislingboner/
+  288  ls
+  289  projectQ2.2 > C:\Users\aisli\Desktop\Project\aislingBoner.txt
+  290  projectQ2.2 >aislingBoner.txt
+  291  ./projectQ2.2
+  292  ls
+  293  cd aislingBoner.txt
+  294  cd bash
+  295  cd ../
+  296  ls
+  297  cd aislingboner/
+  298  ls
+  299  rm aislingBoner.txt
+  300  ls
+  301  rm C:UseraisliDesktopProjectaislingBoner.txt
+  302  ls
+  303  cd  C:UseraisliDesktopProjectaislingBoner.txt
+  304  ./projectQ2.2
+  305  ls
+  306  rm  C:UseraisliDesktopProjectaislingBoner.txt
+  307  ls
+  308  cd C:UseraisliDesktopProjectaislingBoner.txt
+  309  ls -l
+  310  cdmod 755 C:UseraisliDesktopProjectaislingBoner.txt
+  311  chmod 755 C:UseraisliDesktopProjectaislingBoner.txt
+  312  chmod 755 C:User\aisli\Desktop\Project\aislingBoner.txt
+  313  projectQ2.2>aislingBoner.txt
+  314  projectQ2.2
+  315  /bin/bash/projectQ2.2
+  316  ./projectQ2.2
+  317  cd bash
+  318  locate .bash
+  319  ls .bash
+  320  cd ../
+  321  cd aislingboner
+  322  ls
+  323  rm aislingBoner.txt
+  324  ls
+  325  clear
+  326  vim projectQ2_2.sh
+  327  ls
+  328  mkdir Project
+  329  ls
+  330  mv projectQ2.2 Project
+  331  ls
+  332  cd Project/
+  333  ls
+  334  ./
+  335  ./projectQ2.2
+  336  cd ./
+  337  ls
+  338  cd ./
+  339  cd ../
+  340  clear
+  341  ./projectQ2.2
+  342  ls
+  343  cd Project
+  344  ./projectQ2.2
+  345  ../
+  346  cd ../
+  347  vim projectQ2.2
+  348  vim Project/projectQ2.2
+  349  clear
+  350  cd
+  351  ls
+  352  rm projectQ2_2.sh
+  353  ls
+  354  mkdir Remove
+  355  ls
+  356  mv .txt Remove
+  357  ls .txt
+  358  rm -rf ./*.txt
+  359  ls
+  360  rmdir Remove
+  361  ls
+  362  Project>aislingBoner.txt
+  363  cd Project
+  364  projectQ2.2>aislingBoner.txt
+  365  ls
+  366  ./projectQ2.2
+
+
+##########################################
+##########################################
+
